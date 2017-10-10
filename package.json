@@ -1,10 +1,10 @@
 {
   "name": "hackclub.com",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "New Hack Club website",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
+    "build": "gatsby build",
+    "dev": "gatsby develop",
     "start": "node server.js",
     "map-data": "node map/data.js",
     "map-render": "babel-node map/render.js",
@@ -15,14 +15,16 @@
   "dependencies": {
     "axios": "^0.16.2",
     "dot-prop": "^4.2.0",
-    "express": "^4.16.1",
-    "next": "4.0.0-beta.2",
+    "gatsby": "^1.9.55",
+    "gatsby-link": "^1.6.20",
+    "gatsby-plugin-netlify": "^1.0.6",
+    "gatsby-plugin-react-helmet": "^1.0.6",
+    "gatsby-plugin-styled-components": "^1.0.5",
     "palx": "^1.0.2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-simple-maps": "^0.8.3",
+    "react-simple-maps": "^0.8.4",
     "rebass": "^1.0.4",
-    "uglifyjs-webpack-plugin": "^1.0.0-beta.2",
     "unfetch": "^3.0.0",
     "webpack": "^3.6.0"
   }
